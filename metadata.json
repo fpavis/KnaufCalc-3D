@@ -1,0 +1,6 @@
+{
+  "name": "KnaufCalc 3D - Konfigurator Potkonstrukcije",
+  "description": "Profesionalni konfigurator metalne podkonstrukcije za Knauf/suhu gradnju s 3D vizualizacijom, tlocrtnom topografijom, izravnavanjem nesimetričnih zidova i izvozom shopping liste/troškovnika.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

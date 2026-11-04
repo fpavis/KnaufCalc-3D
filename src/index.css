@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+  
+  header, footer, nav, button, .print\:hidden {
+    display: none !important;
+  }
+  
+  .print\:block {
+    display: block !important;
+  }
+  
+  .print\:p-0 {
+    padding: 0 !important;
+  }
+  
+  .print\:border-none {
+    border: none !important;
+  }
+  
+  .print\:shadow-none {
+    box-shadow: none !important;
+  }
+}
+
